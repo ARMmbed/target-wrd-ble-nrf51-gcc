@@ -1,0 +1,96 @@
+{
+  "name": "wrd-ble-nrf51-gcc",
+  "version": "0.0.0",
+  "inherits": {
+    "nordic-nrf51822-gcc": "^1.0.0"
+  },
+  "description": "Nordic NRF51 target with Wearable Reference Design BLE configurations.",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
+  "keywords": [
+    "mbed-official",
+    "gcc"
+  ],
+  "similarTo": [
+    "watch",
+    "watch-ble-nrf51",
+    "nrf51-generic",
+    "message-center-transport-spi-slave"
+  ],
+  "config": {
+    "nrf51822": {
+      "ram_size": "32K"
+    },
+    "image": {
+      "heap": {
+        "warning_threshold": 1024
+      }
+    },
+    "hardware": {
+      "pins": {
+        "SPIS_PSELMOSI": "P0_2",
+        "SPIS_PSELMISO": "P0_3",
+        "SPIS_PSELSS": "P0_7",
+        "SPIS_PSELSCK": "P0_11",
+        "SPIS_PSELIRQ": "P0_5",
+        "SPIS_MOSI": "P0_2",
+        "SPIS_MISO": "P0_3",
+        "SPIS_CSN": "P0_7",
+        "SPIS_SCK": "P0_11",
+        "SPIS_IRQ": "P0_5",
+        "SPIS_NRDY": "P0_5",
+        "SPIS_NREQ": "NC",
+        "LED1": "NC",
+        "LED2": "NC",
+        "LED3": "NC",
+        "LED4": "NC",
+        "BUTTON1": "NC",
+        "BUTTON2": "NC",
+        "BUTTON3": "NC",
+        "BUTTON4": "NC",
+        "TX_PIN_NUMBER": "NC",
+        "RX_PIN_NUMBER": "NC",
+        "CTS_PIN_NUMBER": "NC",
+        "RTS_PIN_NUMBER": "NC",
+        "USBTX": "NC",
+        "USBRX": "NC",
+        "SPI_PSELMOSI0": "NC",
+        "SPI_PSELMISO0": "NC",
+        "SPI_PSELSS0": "NC",
+        "SPI_PSELSCK0": "NC",
+        "SPI_PSELMOSI1": "NC",
+        "SPI_PSELMISO1": "NC",
+        "SPI_PSELSS1": "NC",
+        "SPI_PSELSCK1": "NC",
+        "I2C_SDA0": "NC",
+        "I2C_SCL0": "NC",
+        "D0": "NC",
+        "D1": "NC",
+        "D2": "NC",
+        "D3": "NC",
+        "D4": "NC",
+        "D5": "NC",
+        "D6": "NC",
+        "D7": "NC",
+        "D8": "NC",
+        "D9": "NC",
+        "D10": "NC",
+        "D11": "NC",
+        "D12": "NC",
+        "D13": "NC",
+        "D14": "NC",
+        "D15": "NC",
+        "A0": "NC",
+        "A1": "NC",
+        "A2": "NC",
+        "A3": "NC",
+        "A4": "NC",
+        "A5": "NC"
+      }
+    }
+  }
+}
